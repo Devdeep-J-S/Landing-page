@@ -1,0 +1,164 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+.header
+{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0 90px 0 90px ;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+.header img
+{
+    border: 5px solid;
+    border-radius: 1000px;
+}
+.header .links
+{
+    display: flex;
+    gap : 18px ;
+    font-size: 18px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.section-1
+{
+    display: flex;
+    background-color: #1F2937;
+    gap:50px;
+    padding: 100px;
+}
+.section-1-content
+{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+ .hero-text
+{
+    color: #F9F8FA;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.text{
+font-size: 18px;
+color: #E5E7EB;
+}
+.button
+{
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    max-width: fit-content;
+    padding: 8px 32px;
+    color: #F9F8FA;
+    background-color: #3882F6;
+}
+.section-2
+{
+    display: flex;
+    flex-direction: column;
+}.s2-title
+{
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px;
+}
+.s2-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:16px;
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.s2-content img
+{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.s2-item
+{
+    display: flex;
+    flex-direction: column;
+    gap : 16px;
+}
+.s2-item .text
+{
+    display: flex;
+    flex-wrap: wrap;
+    color:#1F2937;
+    max-width: 200px;
+}
+.section-3
+{
+    padding: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #E5E7EB;
+}
+.section-3 .quote 
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:lighter;
+    font-style: italic;
+}
+.section-3 .name
+{
+display: flex;
+justify-content: flex-end;
+font-size: 24px;
+color: #1F2937;
+font-weight: bolder;
+}
+.section-4
+{
+    padding: 100px;
+}
+.section-4 .header
+{
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-4 .button
+{
+    border-radius: 8px;
+    border: solid;
+}
+.footer
+{
+    top: 0;
+    left: 0;
+    right:0;
+background-color: #1F2937;
+color: #E5E7EB;
+padding: 30px;
+display: flex;
+justify-content: center;
+}
